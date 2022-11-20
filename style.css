@@ -1,29 +1,21 @@
-body{
-    margin: 0%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.videogif{
-	position: fixed; 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: 50%; 
-	height: 50%; 
-	z-index: -1000;
-	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif) no-repeat;
+body{
+	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif);
 	background-size: cover; 
+    width: 100vw;
+    height: 100vh;
 }
 
 header{
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-shadow: 10px 0px 20px 15px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.568);
+    padding:10px 0 10px 10px ;
+    box-shadow: 10px 0px 20px 15px #000000;
+    background-color: #00000091;
+    text-align: center;
 }
 
 header > a{
@@ -31,8 +23,7 @@ header > a{
     color: white;
     font-weight: bolder;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
 }
 
 header > a:hover{
@@ -44,11 +35,8 @@ header > a:hover{
 section{
     color: white;
     background-color: rgba(0, 0, 0, 0.747);
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    width: 70%;
+    margin: 20px auto;
     padding: 10px;
     box-shadow: 0px 50px 130px 50px rgba(0, 0, 0, 0.753);
 }
@@ -99,4 +87,10 @@ div.projetos > a{
 div.projetos > a:hover{
     box-shadow: 10px 10px 50px 10px black;
     background-color: rgba(128, 128, 128, 0.726);
+}
+
+@media (max-width:700px) {
+    section{
+        width: 90%;
+    }
 }
