@@ -8,7 +8,7 @@ html{
 }
 
 body{
-	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif);
+	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif) fixed;
 	background-size: cover; 
     width: 100vw;
     height: 100vh;
@@ -46,6 +46,14 @@ section{
 
 section div h1{
     text-align: center;
+}
+
+section > div{
+    padding: 15px;
+}
+
+#projetos{
+    padding-left: 19px;
 }
 
 footer{
