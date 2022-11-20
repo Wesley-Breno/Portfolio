@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
 	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif);
