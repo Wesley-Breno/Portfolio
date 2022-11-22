@@ -10,8 +10,14 @@ html{
 body{
 	background: url(https://i.pinimg.com/originals/3f/6d/c1/3f6dc13764dfa160a1a9239d1939b25c.gif) fixed;
 	background-size: cover; 
-    width: 100vw;
+    width: 99,5vw;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
 }
 
 header{
@@ -69,6 +75,9 @@ footer{
     font-weight: bolder;
     border-radius: 10px;
     margin-top: 5px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hard-skills-image:hover{
