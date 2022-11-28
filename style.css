@@ -37,8 +37,8 @@ header > a{
     color: white;
     font-weight: bolder;
     font-size: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 header > a:hover{
@@ -85,8 +85,8 @@ footer{
 }
 
 .hard-skills-image > img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .hard-skills-image:hover{
