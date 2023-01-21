@@ -17,6 +17,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 h2{
     text-align: center;
     padding: 15px;
