@@ -120,6 +120,40 @@ footer{
     text-align: center;
 }
 
+picture img:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.mais_certificados{
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.247) 0%, rgba(255,255,255,0) 100%);
+    width: 45%;
+    height: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+
+.mais_certificados:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.0);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.0);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.0);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.274) 0%, rgba(255,255,255,0) 105%);
+}
+
 .projetos{
     text-align: center;
 }
