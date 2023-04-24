@@ -34,6 +34,7 @@ header{
     position: fixed;
     inline-size: 100%;
     margin-top: -8%;
+    z-index: 2;
 }
 
 header > a{
@@ -104,7 +105,7 @@ footer{
 
 .hard-skills-image:hover{
     box-shadow: 0px 0px 30px 10px #270083;
-    z-index: 2;
+    z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
@@ -121,7 +122,7 @@ footer{
 }
 
 picture img:hover{
-    z-index: 2;
+    z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
@@ -142,7 +143,7 @@ picture img:hover{
 }
 
 .mais_certificados:hover{
-    z-index: 2;
+    z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.0);
     -ms-transition: all 200ms ease-in;
@@ -163,7 +164,7 @@ picture img:hover{
 }
 
 .image-projeto:hover{
-    z-index: 2;
+    z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
