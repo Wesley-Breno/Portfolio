@@ -121,7 +121,7 @@ footer{
     text-align: center;
 }
 
-picture img:hover{
+.certificados picture img:hover{
     z-index: 1;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
@@ -129,8 +129,8 @@ picture img:hover{
     -ms-transform: scale(1.1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
-    transform: scale(1.1);
+    transition: all 300ms ease-in;
+    transform: scale(1.4);
 }
 
 .mais_certificados{
