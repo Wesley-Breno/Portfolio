@@ -117,6 +117,17 @@ footer{
     background-color: rgba(38, 24, 71, 0.781);
 }
 
+.hard-skills-image > .name_skill{
+    display: none;
+}
+
+.hard-skills-image:hover > .name_skill{
+    display: block;
+    color: rgb(201, 199, 199);
+    font-weight: bolder;
+    font-size: 11px;
+}
+
 .certificados{
     text-align: center;
 }
