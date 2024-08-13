@@ -154,15 +154,6 @@ footer{
 }
 
 .mais_certificados:hover{
-    z-index: 1;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.0);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.0);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.0);
-    transition: all 200ms ease-in;
-    transform: scale(1.1);
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.274) 0%, rgba(255,255,255,0) 105%);
 }
 
